@@ -28,6 +28,8 @@ You will unit test this class with *coverage testing* using a class called "Numb
   
   These testing terms are defined in the textbook
 
+Make sure your tests run successfully in IntelliJ
+
 Zip your project folder and email it to me
   
   You probably want to make a copy before zipping it
