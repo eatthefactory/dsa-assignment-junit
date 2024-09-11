@@ -14,15 +14,11 @@ public class NumberInfo {
     }
 
     public static String threeDivisionMessage(int num) {
-        switch (num % 3) {
-            case 0:
-                return num + "is divisible by 3!";
-            case 1:
-                return num + "has a remainder of 1.";
-            case 2:
-                return num + "has a remainder of 2.";
-        }
-
-        return "Error!";
+        return switch (num % 3) {
+            case 0 -> num + "is divisible by 3!";
+            case 1 -> num + "has a remainder of 1.";
+            case 2 -> num + "has a remainder of 2.";
+            default -> "Error!";
+        };
     }
 }
